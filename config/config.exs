@@ -10,6 +10,10 @@ import Config
 config :pay_module,
   ecto_repos: [PayModule.Repo]
 
+config :razorpay,
+  key_id: "********************************88",
+  key_secret: "********************************88"
+
 # Configures the endpoint
 config :pay_module, PayModuleWeb.Endpoint,
   url: [host: "localhost"],
